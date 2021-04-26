@@ -1,0 +1,29 @@
+.Gif {
+
+    display:inline;
+    color: lightblue;
+    width: 85%;
+    margin: 10px;
+    flex-direction:row;
+    padding: 5px;
+    height: 80% ;
+    font-size: 12px;
+    object-fit: contain;
+}
+
+.Gif img {
+    object-fit:contain;
+    
+}
+.listOfGifs {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    grid-template-rows: subgrid;
+    gap: 16px 4px;
+    width: max-content;
+}
+
+/*
+
+*/
+
